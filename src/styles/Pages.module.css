@@ -1,0 +1,131 @@
+.home{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #252525;
+    border: rgb(0, 194, 194) 5px solid;
+}
+
+.home h1{
+    color:  rgb(0, 240, 240);
+    padding-top: 24px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home h2{
+    color:  rgb(0, 240, 240);
+    padding-top: 24px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration:underline ;
+}
+
+.categorias{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #252525;
+    border: rgb(0, 194, 194) 5px solid;
+}
+
+.categorias h1{
+    color:  rgb(0, 240, 240);
+    padding-top: 24px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.categorias main{
+    width: 50%;
+}
+
+.categorias ul{
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding: 30px;
+}
+
+.categorias li{
+    color:  rgb(0, 240, 240);
+    padding: 30px;
+    margin-bottom: 50px;
+    border-bottom: 5px solid rgb(0, 240, 240);
+    border-top: 5px solid rgb(0, 240, 240);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.categorias a{
+    color: rgb(0, 240, 240);
+    background-color: #252525;
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.categorias button{
+    border: 0;
+}
+
+.categorias p{
+    color: rgb(0, 240, 240);
+    font-weight: 600;
+    font-size: 28px;
+    padding: 20px;
+}
+
+.sobre{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #252525;
+    border: rgb(0, 194, 194) 5px solid;
+}
+
+.sobre main{
+    margin-top: 55px;
+}
+
+.sobre h1{
+    color:  rgb(0, 240, 240);
+    padding-top: 24px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sobre h2{
+    color:  rgb(0, 240, 240);
+    margin-bottom: 32px;
+    font-size: 30px ;
+}
+
+.sobre h3{
+    color:  rgb(0, 240, 240);
+    font-size: 22px;
+}
+
+.texto_sobre_nos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caixa_animal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 5px solid rgb(0, 240, 240);
+    border-top: 5px solid rgb(0, 240, 240);
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.sub_titulo{
+    font-size: 40px;
+}

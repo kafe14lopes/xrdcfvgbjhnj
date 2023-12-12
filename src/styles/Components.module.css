@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    margin-bottom: -200px;
+    background-color: #252525;
+    border: rgb(0, 194, 194) 5px solid;
+    border-top: 0;
+    font-weight: 700;
+    color:  rgb(0, 240, 240);
+}
+
+.navbar{
+    background-color: #252525;
+    border: rgb(0, 194, 194) 5px solid;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    border-bottom: 0;
+}
+
+.navbar a{
+    color:  rgb(0, 240, 240);
+    margin-left: 1em;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 26px;
+    font-weight:bold;
+}
+
+.navbar a:hover{
+    color: #00766c;
+}
